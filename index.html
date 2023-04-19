@@ -13,6 +13,64 @@
 </head>
 <body>
     <header>
+        <div class="header-mob">
+            <a href="./index.html" class="logo link list">Web<span class="studio-top">Studio</span></a>
+            <button type="button" class="menu-btn">
+                <svg width="32" height="22" class="header-mob-icon">
+                    <use href="./images/icons.svg.svg#icon-manu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="header-mob-modal">
+            <nav class="">
+                <button type="button" class="header-mob-modal-icon-btn" data-modal-close>
+                    <svg class="header-mob-modal-icon-close">
+                        <use href="./images/icons.svg.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="header-mob-list list">
+                    <li><a href="./index.html" class="header-mob-link link">Studio</a></li>
+                    <li><a href="./portfolio.html" class="header-mob-link link">Portfolio</a></li>
+                    <li><a href="" class="header-mob-link link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="header-mob-address">
+                <ul class="header-mob-address-list list">
+                    <li><a href="tel:+110001111111" class="header-mob-tel link list">+11 (000) 111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="header-mob-address link list">info@devstudio.com</a></li>
+                </ul>
+            </address>
+            <ul class="header-mob-soc-list list">
+                <li class="header-mob-soc-item">
+                    <a href="" class="header-mob-soc-link link">
+                        <svg class="header-mob-soc-icon">
+                            <use href="./images/icons.svg.svg#icon-instagram" width="16" height="16"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-mob-soc-item">
+                    <a href="" class="header-mob-soc-link link">
+                        <svg class="header-mob-soc-icon">
+                            <use href="./images/icons.svg.svg#icon-twitter" width="16" height="16"></use>
+                        </svg>
+                    </a>   
+                </li>
+                <li class="header-mob-soc-item">
+                    <a href="" class="header-mob-soc-link link">
+                        <svg class="header-mob-soc-icon">
+                            <use href="./images/icons.svg.svg#icon-facebook" width="16" height="16"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-mob-soc-item">
+                    <a href="" class="header-mob-soc-link link">
+                        <svg class="header-mob-soc-icon">
+                            <use href="./images/icons.svg.svg#icon-linkedin" width="16" height="16"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div class="container header-container">
             <nav class="header-nav">
                 <a href="./index.html" class="logo link list">Web<span class="studio-top">Studio</span></a>
@@ -83,7 +141,7 @@
                     </ul>
                 </div>
             </section>
-            <section>
+            <section class="doing">
                 <h2 class="doing-title">What are we doing</h2>
                 <ul class="doing-list list">
                     <li><img src="./images/term/img1.jpg" width="360" height="300" alt="Computer monitor with an open account"></li>
@@ -382,7 +440,7 @@
                         <input type="email" name="user-email" id="user-email" class="modal-input">
                         <svg class="modal-icon">
                             <use href="./images/icons.svg.svg#icon-email"></use>
-                         </svg>
+                        </svg>
                     </div>
                 </div>
                 <label for="user-text" class="modal-label">Comment
@@ -391,7 +449,7 @@
                     <input type="checkbox" name="policy" id="policy" value="true" class="modal-click visually-hidden">
                     
                     <label for="policy" class="modal-checkbox">
-                       <svg class="icon-check">
+                        <svg class="icon-check">
                             <use href="./images/icons.svg.svg#icon-check"></use>
                         </svg>I accept the terms and conditions of the<a href="" class="modal-link">Privacy Policy</a>
                     </label>
