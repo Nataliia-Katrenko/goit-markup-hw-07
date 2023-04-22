@@ -8,6 +8,7 @@
 
 
 }
+/* -----------------------max-width: 428px---------------- */
 @media screen and (max-width: 428px) {
     .header-container {
         display: none; 
@@ -58,7 +59,7 @@
     .header-mob-modal-icon-btn {
         width: 24px;
         height: 24px;
-        background-color: #E7E9FC;
+        background-color: #FFFFFF;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         display: block;
@@ -155,6 +156,8 @@
     }
 }
 
+/* ---------------------max-width: 768px---------------- */
+
 
 @media screen and (min-width: 768px) {
     .container {
@@ -226,6 +229,15 @@
         margin: auto;
         margin-bottom: 48px;
     }
+    .about-items {
+        gap: 72px 24px;
+    }
+    .about-list-text {
+        max-width: 356px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px 72px;
+    }
     .doing {
         display: none;
     }
@@ -256,13 +268,45 @@
         width: 104px;
         height: 56px;
     }
+    .footer-soc-title {
+        display: block;
+    }
+    .modal {
+        width: 408px;
+        min-height: 576px;
+    }
 }
     
+
+/* -----------------------max-width: 1158px---------------- */
+
 
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
     }
+    .header-address {
+        font-style: normal;
+     }
+     .address-list {
+        width: 344px;
+        display: flex;
+        gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+     }
+     .address {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        cursor: pointer;
+        color: var(--color-main);
+        padding-top: 24px;
+        padding-bottom: 24px;
+     }
+     .address:is( :hover, :focus){
+        color: var(--color-hover);
+     }
     .logo {
         margin-right: 76px;
         padding-top: 24px;
@@ -357,4 +401,33 @@
     .customers {
         max-width: 1440px;
     }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;  
+     }
+     .footer-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+     }
+     .footer-desc {
+        margin-right: 120px;
+     }
+   
+     .footer-soc-list {
+        margin-bottom: 0;
+     }
+     .footer-form {
+        margin-left: 80px;
+     }
+     .footer-form-wrap {
+        display: flex;
+        gap: 24px;
+     }
+     .footer-form-input {
+        margin-top: 16px;
+        margin-bottom: 16px;
+     }
 }

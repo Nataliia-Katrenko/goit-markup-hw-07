@@ -39,6 +39,9 @@ img {
 .no-scroll {
    overflow: hidden;
 }
+section {
+   margin: 0 auto;
+}
 /* ------------------------INDEX----------------------- */
 
 /* ------------------------HEADER----------------------- */
@@ -111,6 +114,8 @@ img {
    display: flex;
    flex-wrap: wrap;
    gap: 12px;
+   margin-top: 16px;
+   margin-bottom: 16px;
 
 }
 .address {
@@ -239,7 +244,7 @@ img {
 }
 /* ------------------------TEAM----------------------- */
 .team {
-   /* max-width: 1440px; */
+   max-width: 1440px;
    background: var(--background-team);
    /* padding-top: 120px;
    padding-bottom: 120px; */
@@ -394,6 +399,7 @@ img {
 }
 .footer-desc {
    /* margin-right: 120px; */
+   margin-right: 24px;
 }
 .footer-link {
    font-family: 'Raleway', sans-serif;
@@ -403,6 +409,9 @@ img {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--color-logo);
+   display: flex;
+   justify-content: center;
+
 }
 .studio-footer {
    color: var(--background-team);
@@ -423,6 +432,9 @@ img {
    letter-spacing: 0.02em;
    color: var(--color-background);
    margin-bottom: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .footer-soc-list {
    display: flex;
@@ -456,14 +468,19 @@ img {
    height: 24px;
 }
 .footer-form {
-   margin-left: 80px;
+   /* margin-left: 80px; */
+
 }
 .footer-form-wrap {
-   /* display: flex; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+
 }
 .footer-form-input {
-   /* width: 264px; */
-   width: 100%;
+   width: 264px;
    height: 40px;
    font-size: 12px;
    line-height: 2;
@@ -477,8 +494,8 @@ img {
    outline: transparent;
    background-color: transparent;
    padding: 8px 16px;
-   margin-top: 16px;
-   margin-bottom: 16px;
+   /* margin-top: 16px;
+   margin-bottom: 16px; */
    /* margin-right: 24px; */
 }
 .footer-form-btn {
@@ -639,8 +656,10 @@ main {
 }
 .modal {
    position: absolute;
-   width: 408px;
-   min-height: 576px;
+   /* width: 408px;
+   min-height: 576px; */
+   width: 392px;
+   min-height: 586px;
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%) scaleY(1);
