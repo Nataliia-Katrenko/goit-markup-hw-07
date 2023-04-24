@@ -173,6 +173,7 @@
         margin: auto;
         padding-top: 120px;
         padding-bottom: 120px;
+
     }
     .customers-list {
         display: flex;
@@ -207,6 +208,10 @@
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+    }
+    .header-container {
+        margin-left: auto;
+        margin-right: auto;
     }
     .header-mob {
         display: none;
@@ -279,6 +284,10 @@
         margin: auto;
         margin-bottom: 48px;
     }
+    .about {
+    margin-left: auto;
+    margin-right: auto;
+    }
     .about-items {
         display: flex;
         align-items: center;
@@ -334,6 +343,8 @@
     }
     .customers {
         max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer {
