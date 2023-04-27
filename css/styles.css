@@ -89,9 +89,13 @@ section {
    stroke: #2E2F42;
 }
 .header-mob-menu {
-   position: absolute;
-   width: 90%;
-   display: block;
+   position: fixed;
+   top: 0;
+   z-index: 2;
+   width: 100vw;
+   height: 100vh;
+   background-color: #fff;
+   padding: 24px 24px 40px 40px;
 }
 .header-mob-menu-icon-btn {
    width: 24px;
@@ -108,9 +112,6 @@ section {
 .header-mob-menu-icon-btn:is( :hover, :focus) {
    background-color: #404BBF;
    border-radius: 50%;  
-}
-.header-mob-menu-icon-btn:is( :hover, :focus) .modal-icon-close {
-   fill: #FFFFFF;
 }
 .header-mob-menu-icon-close {
    width: 8px;
