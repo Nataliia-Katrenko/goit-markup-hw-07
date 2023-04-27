@@ -89,8 +89,8 @@ section {
    stroke: #2E2F42;
 }
 .header-mob-menu {
-   position: absolute;
-   width: 85%;
+   /* position: absolute; */
+   width: 100%;
    display: block;
 }
 .header-mob-menu-icon-btn {
