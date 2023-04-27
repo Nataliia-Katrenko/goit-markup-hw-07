@@ -207,7 +207,7 @@ section {
 screen and (min-resolution: 192dpi) and (min-width: 428px),
 screen and (min-resolution: 2dppx) and (min-width: 428px) {
    .banner {
-      background-image: url(‘../images/background/bg-mob.jpg’);
+      background-image: url(‘../images/background/bg-mob-x2.jpg’);
    }
 }
 .hero-title {
