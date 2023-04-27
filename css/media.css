@@ -1,7 +1,7 @@
-/* -----------------------max-width: 428px---------------- */
+/* -----------------------max-width: 427px---------------- */
 @media screen and (max-width: 427px) {
     .container {
-        max-width: 428px;
+        max-width: 398px;
     }
     .header-mob-top {
         margin-left: 16px;
@@ -20,6 +20,9 @@
     .header-container {
         display: none; 
     }
+    .hero {
+        max-height: 432px;
+    }
     .customers-link {
         width: 190px; 
     }
@@ -34,15 +37,14 @@
     .modal {
         width: 95%;
     }
-    .modal-input {
-        width: 250px;
+    /* .modal-input {
+        width: 360px; */
+
     }
     .modal-text {
-        width: 250px;
+        width: 100%;
     }
-    .modal-text {
-        width: 250px;
-    }
+
 }
 /* -----------------min-width 428px-------------- */
 
@@ -128,7 +130,7 @@
     .header-link:is( :hover, :focus){
         color: var(--color-hover);
     }
-    .hero {
+    /* .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/bg-tab.jpg);
     }
     @media (min-device-pixel-ratio: 2),
@@ -137,7 +139,7 @@
         .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/bg-tab-2x.jpg);
         }
-    }
+    } */
     .hero-title {
         max-width: 496px;
         font-size: 56px;
@@ -261,7 +263,7 @@
     .address:is( :hover, :focus){
         color: var(--color-hover);
     }
-    .hero {
+    /* .hero {
         max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -273,7 +275,7 @@
         .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/people-office2x.jpg);
         }
-    }
+    } */
     .hero-title {
         max-width: 496px;
         font-size: 56px;
