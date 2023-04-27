@@ -89,8 +89,8 @@ section {
    stroke: #2E2F42;
 }
 .header-mob-menu {
-   /* position: absolute; */
-   width: 100%;
+   position: absolute;
+   width: 90%;
    display: block;
 }
 .header-mob-menu-icon-btn {
@@ -203,12 +203,12 @@ section {
    background-origin: border-box;
    margin: auto;
 }
-@media (min-device-pixel-ratio: 2),
-   (min-resolution: 192dpi),
-   (min-resolution: 2dppx) {
-   /* .hero {
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/bg-mob-2x.jpg);
-   } */
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 428px),
+screen and (min-resolution: 192dpi) and (min-width: 428px),
+screen and (min-resolution: 2dppx) and (min-width: 428px) {
+   .banner {
+      background-image: url(‘../images/background/bg-mob.jpg’);
+   }
 }
 .hero-title {
    max-width: 320px;
