@@ -89,8 +89,9 @@ section {
    stroke: #2E2F42;
 }
 .header-mob-menu {
-   position: fixed;
+   position: absolute;
    top: 0;
+   left: -16px;
    z-index: 2;
    width: 100vw;
    height: 100vh;
@@ -106,7 +107,6 @@ section {
    background-color: #FFFFFF;
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius: 50%;
-   display: block;
    margin-left: auto;
    display: flex;
    justify-content: center;
