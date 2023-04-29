@@ -224,7 +224,10 @@ img {
 }
 /*  style for section Team*/
 .team-sect {
+  max-width: 1440px;
   padding: 96px 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--background-team-color);
 }
 .team-nav {
@@ -353,9 +356,12 @@ img {
 }
 /*  footer*/
 .footer-main {
+  max-width: 1440px;
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: var(--background-footer-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-wrap {
   margin-left: auto;
